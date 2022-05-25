@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<title>Card viewer</title>
+</head>
+<style>
+.divimg {
+  clear:both;
+  font-size:0;
+}
+
+.card-element-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.level-banner {
+    margin-bottom: -32px;
+    z-index: 2;
+}
+
+.level-banner-text {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 4px;
+    height: 0px;
+    width: 7px;
+    z-index: 3;
+}
+
+.level-banner-extra {
+    z-index: 5;
+}
+
+.level-banner-extra img {
+    margin-bottom: -114px;
+    margin-left: 43px;
+}
+
+.card-text-top {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 34px;
+    z-index: 2;
+    width: 108px;
+}
+
+.card-text-top-extra {
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 92px;
+    z-index: 2;
+    width: 155px;
+}
+
+.card-text-bottom {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: -21px;
+    z-index: 2;
+    width: 163px;
+    text-align: center;
+}
+
+.card-text-bottom-extra {
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    margin-left: 16px;
+    z-index: 2;
+    width: 155px;
+    text-align: center;
+}
+
+
+
+</style>
+<body>
+
+<div class="divimg" style="width:192px;background:black;">
+
+	<div  class="card-text-top">
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+	</div>
+	
+	<div  class="card-text-top-extra">
+		Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+	
+
+	<div style="display:flex">
+		<div>
+			<div>
+				<img src="corner.svg">
+			</div>
+			<div>
+				<img src="border.svg" style="transform:rotate(270deg);">
+			</div>
+		</div>
+		<div style="display: flex;">
+			<div>
+				<img src="border.svg">
+				<img src="border-split.svg">
+				<img src="border-split.svg" style="transform: scaleX(-1)">
+			</div>
+			<div style="position:relative">
+				<img src="left-angle-circle.svg">
+				<img src="cleric.svg" class="card-element-logo">
+				<img src="level-banner.svg" class="card-element-logo level-banner">
+				<div class="card-element-logo level-banner-text">
+					3
+				</div>
+				<div class="card-element-logo level-banner-extra">
+					<img src="left-extra.svg">
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div>
+		<img src="border.svg" style="transform:rotate(270deg);">
+		<img src="border.svg" style="transform:rotate(90deg); float:right;">
+	</div>
+	<div>
+		<img src="border.svg" style="transform:rotate(270deg);">
+		<img src="border.svg" style="transform:rotate(90deg); float:right;">
+	</div>
+	<div>
+		<img src="border.svg" style="transform:rotate(270deg);">
+		<img src="border.svg" style="transform:rotate(90deg); float:right;">
+	</div>
+		
+	<div>
+		<img src="border-branch.svg">
+		<img src="border.svg">
+		<img src="border.svg">
+		<img src="border.svg">
+		<img src="border.svg">
+		<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
+	</div>
+	
+	<div class="card-text-bottom">
+		Lorem ipsalum
+	</div>
+	
+	<div class="card-text-bottom-extra">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+	</div>
+	
+	
+	<div>
+		<img src="border.svg" style="transform:rotate(270deg);">
+		<img src="border.svg" style="transform:rotate(90deg); float:right;">
+	</div>
+	<div>
+		<img src="corner.svg" style="transform: scaleY(-1)">
+		<img src="border.svg" style="transform: scaleY(-1)">
+		<img src="border-split.svg" style="transform: scaleY(-1)">
+		<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+		<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+		<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+	</div>
+	
+
+</div>
+</body>
+</html>
