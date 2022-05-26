@@ -761,11 +761,21 @@
 	</div>
 </div>
 
-
+<div>
+	<input type="color" id="card-color" name="head"
+		   value="#000000">
+	<label for="card-color">card color</label>
+</div>
 
 </body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
+
+	$('#card-color').change(function () {
+		$('.divimg').css("background-color", $(this).val());
+	})
+
 
 	class Element {
 		constructor(type, filename, strechX = false, strechY = false, width, height) {

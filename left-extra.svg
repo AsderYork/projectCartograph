@@ -1,7 +1,7 @@
 <svg width="21" height="32" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_14_423)">
 <rect width="32" height="32" transform="translate(-11)" fill="black"/>
-<rect x="11" y="8" width="10" height="27" fill="black"/>
+<rect x="11" y="8" width="10" height="27"/>
 <path d="M19 0V2L5 5V7" stroke="white" stroke-width="3"/>
 <path d="M15 32V29L2 22.5V11L3 9L7 15L9 12V17L12 14V19L15 17V20.5L17 18.5L20 14V11" stroke="white" stroke-width="1.5"/>
 <g filter="url(#filter0_dd_14_423)">
