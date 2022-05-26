@@ -5,8 +5,9 @@
 </head>
 <style>
 .divimg {
-  clear:both;
-  font-size:0;
+	clear:both;
+	font-size:0;
+	margin: 10px;
 }
 
 .card-element-logo {
@@ -24,12 +25,13 @@
 }
 
 .level-banner-text {
-    font-size: 18px;
+	font-size: 12px;
     color: white;
-    margin-bottom: 4px;
+    margin-bottom: 1px;
     height: 0px;
-    width: 7px;
+    width: 9px;
     z-index: 3;
+	font-weight: bold;
 }
 
 .level-banner-extra {
@@ -87,89 +89,710 @@
 </style>
 <body>
 
-<div class="divimg" style="width:192px;background:black;">
+<div style="display: flex">
+	<div class="divimg" style="width:192px;background:black;">
 
-	<div  class="card-text-top">
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit
-	</div>
-	
-	<div  class="card-text-top-extra">
-		Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
-	
+		<div  class="card-text-top">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
 
-	<div style="display:flex">
-		<div>
+		<div  class="card-text-top-extra">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+
+
+		<div style="display:flex">
 			<div>
-				<img src="corner.svg">
+				<div>
+					<img src="corner.svg">
+				</div>
+				<div>
+					<img src="border.svg" style="transform:rotate(270deg);">
+				</div>
 			</div>
-			<div>
-				<img src="border.svg" style="transform:rotate(270deg);">
+			<div style="display: flex;">
+				<div>
+					<img src="border.svg">
+					<img src="border-split.svg">
+					<img src="border-split.svg" style="transform: scaleX(-1)">
+				</div>
+				<div style="position:relative">
+					<img src="left-angle-circle.svg">
+					<img src="cleric.svg" class="card-element-logo">
+					<img src="level-banner.svg" class="card-element-logo level-banner">
+					<div class="card-element-logo level-banner-text">
+						IV
+					</div>
+					<div class="card-element-logo level-banner-extra">
+						<img src="left-extra.svg">
+					</div>
+				</div>
 			</div>
 		</div>
-		<div style="display: flex;">
-			<div>
-				<img src="border.svg">
-				<img src="border-split.svg">
-				<img src="border-split.svg" style="transform: scaleX(-1)">
-			</div>
-			<div style="position:relative">
-				<img src="left-angle-circle.svg">
-				<img src="cleric.svg" class="card-element-logo">
-				<img src="level-banner.svg" class="card-element-logo level-banner">
-				<div class="card-element-logo level-banner-text">
-					3
-				</div>
-				<div class="card-element-logo level-banner-extra">
-					<img src="left-extra.svg">
-				</div>
-			</div>
-		</div>		
-	</div>
-	<div>
-		<img src="border.svg" style="transform:rotate(270deg);">
-		<img src="border.svg" style="transform:rotate(90deg); float:right;">
-	</div>
-	<div>
-		<img src="border.svg" style="transform:rotate(270deg);">
-		<img src="border.svg" style="transform:rotate(90deg); float:right;">
-	</div>
-	<div>
-		<img src="border.svg" style="transform:rotate(270deg);">
-		<img src="border.svg" style="transform:rotate(90deg); float:right;">
-	</div>
-		
-	<div>
-		<img src="border-branch.svg">
-		<img src="border.svg">
-		<img src="border.svg">
-		<img src="border.svg">
-		<img src="border.svg">
-		<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
-	</div>
-	
-	<div class="card-text-bottom">
-		Lorem ipsalum
-	</div>
-	
-	<div class="card-text-bottom-extra">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-	</div>
-	
-	
-	<div>
-		<img src="border.svg" style="transform:rotate(270deg);">
-		<img src="border.svg" style="transform:rotate(90deg); float:right;">
-	</div>
-	<div>
-		<img src="corner.svg" style="transform: scaleY(-1)">
-		<img src="border.svg" style="transform: scaleY(-1)">
-		<img src="border-split.svg" style="transform: scaleY(-1)">
-		<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
-		<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
-		<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
-	</div>
-	
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
 
+		<div>
+			<img src="border-branch.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
+		</div>
+
+		<div class="card-text-bottom">
+			Lorem ipsalum
+		</div>
+
+		<div class="card-text-bottom-extra">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+		</div>
+
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border-split.svg">
+			<img src="border-split.svg" style="transform: scaleX(-1)">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border-branch.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
+		</div>
+
+		<div class="card-text-bottom">
+			Lorem ipsalum
+		</div>
+
+		<div class="card-text-bottom-extra">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+		</div>
+
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border-branch.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
+		</div>
+
+		<div class="card-text-bottom">
+			Lorem ipsalum
+		</div>
+
+		<div class="card-text-bottom-extra">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+		</div>
+
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border-split.svg">
+			<img src="border-split.svg" style="transform: scaleX(-1)">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border-branch.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
+		</div>
+
+		<div class="card-text-bottom">
+			Lorem ipsalum
+		</div>
+
+		<div class="card-text-bottom-extra">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+		</div>
+
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border-branch.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border-branch.svg" style="transform: scaleX(-1); float:right;">
+		</div>
+
+		<div class="card-text-bottom">
+			Lorem ipsalum
+		</div>
+
+		<div class="card-text-bottom-extra">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+		</div>
+
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
 </div>
+
+<div style="display: flex">
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet luctus. Tellus in metus vulputate eu scelerisque. Ac tortor vitae purus faucibus ornare suspendisse sed. Aliquam purus sit amet luctus venenatis lectus magna. Ultricies mi quis hendrerit dolor magna. Dolor sed viverra ipsum nunc aliquet. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed.
+		</div>
+
+		<div style="display:flex">
+			<div>
+				<div>
+					<img src="corner.svg">
+				</div>
+				<div>
+					<img src="border.svg" style="transform:rotate(270deg);">
+				</div>
+			</div>
+			<div style="display: flex;">
+				<div>
+					<img src="border.svg">
+					<img src="border-split.svg">
+					<img src="border-split.svg" style="transform: scaleX(-1)">
+				</div>
+				<div style="position:relative">
+					<img src="left-angle-circle.svg">
+					<img src="cleric.svg" class="card-element-logo">
+					<img src="level-banner.svg" class="card-element-logo level-banner">
+					<div class="card-element-logo level-banner-text">
+						IV
+					</div>
+					<div class="card-element-logo level-banner-extra">
+						<img src="left-extra.svg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet luctus. Tellus in metus vulputate eu scelerisque. Ac tortor vitae purus faucibus ornare suspendisse sed. Aliquam purus sit amet luctus venenatis lectus magna. Ultricies mi quis hendrerit dolor magna. Dolor sed viverra ipsum nunc aliquet. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed.
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border-split.svg">
+			<img src="border-split.svg" style="transform: scaleX(-1)">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet luctus. Tellus in metus vulputate eu scelerisque. Ac tortor vitae purus faucibus ornare suspendisse sed. Aliquam purus sit amet luctus venenatis lectus magna. Ultricies mi quis hendrerit dolor magna. Dolor sed viverra ipsum nunc aliquet. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed.
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleY(-1)">
+			<img src="border-split.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet luctus. Tellus in metus vulputate eu scelerisque. Ac tortor vitae purus faucibus ornare suspendisse sed. Aliquam purus sit amet luctus venenatis lectus magna. Ultricies mi quis hendrerit dolor magna. Dolor sed viverra ipsum nunc aliquet. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed.
+		</div>
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border-split.svg">
+			<img src="border-split.svg" style="transform: scaleX(-1)">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+	<div class="divimg" style="width:192px;background:black;">
+
+		<div  class="card-text-top" style="text-align: center; width: 155px;">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		</div>
+
+		<div  class="card-text-top-extra" style="text-align: center">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet luctus. Tellus in metus vulputate eu scelerisque. Ac tortor vitae purus faucibus ornare suspendisse sed. Aliquam purus sit amet luctus venenatis lectus magna. Ultricies mi quis hendrerit dolor magna. Dolor sed viverra ipsum nunc aliquet. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed.
+		</div>
+
+		<div>
+			<img src="corner.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="border.svg">
+			<img src="corner.svg" style="transform: scaleX(-1)">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+
+		<div>
+			<img src="border.svg" style="transform:rotate(270deg);">
+			<img src="border.svg" style="transform:rotate(90deg); float:right;">
+		</div>
+		<div>
+			<img src="corner.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleY(-1)">
+			<img src="border.svg" style="transform: scaleX(-1) scaleY(-1)">
+			<img src="corner.svg" style="transform: scaleX(-1) scaleY(-1)">
+		</div>
+
+
+	</div>
+</div>
+
+
+
 </body>
+
+<script>
+
+	class Element {
+		constructor(type, filename, strechX = false, strechY = false, width, height) {
+			this.type = type;
+			this.filename = filename;
+			this.width = width;
+			this.height = height;
+			this.strechX = strechX;
+			this.strechY = strechY;
+		}
+	}
+
+
+	class Card {
+		style = "cloudborder";
+	}
+
+	function init() {
+		var elem = new Element('corner', 'corner.svg');
+	}
+
+	window.onload = function () {
+		console.log('aaa');
+	}
+
+
+
+</script>
+
 </html>
